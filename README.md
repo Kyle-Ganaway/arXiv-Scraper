@@ -11,15 +11,15 @@ The script successfully navigates the site's anti-scraping measures (including i
 
 ## Key Skills Demonstrated
 
-* **Web Scraping:** Developed a robust, multi-stage scraper using **Selenium** to control a web browser, handle CAPTCHA challenges with **`WebDriverWait`**, and navigate complex, dynamic pagination logic. Used **BeautifulSoup** for precise HTML parsing.
-* **Data Cleaning & Manipulation:** Utilized the **pandas** library to clean and transform raw scraped data. This included converting data types (strings to `datetime` objects), handling missing values, and structuring text data.
+* **Web Scraping:** Developed a robust, multi-stage scraper using Selenium to control a web browser, handle CAPTCHA challenges with WebDriverWait, and navigate complex, dynamic pagination logic. Used BeautifulSoup for precise HTML parsing.
+* **Data Cleaning & Manipulation:** Utilized the pandas library to clean and transform raw scraped data. This included converting data types (strings to datetime objects), handling missing values, and structuring text data.
 * **Exploratory Data Analysis (EDA):** Performed a multi-faceted analysis to uncover insights, including a time-series analysis of submission trends, a frequency analysis of research subjects, and correlation analyses between collaboration size and revision time.
-* **Data Visualization:** Created clear and insightful visualizations using **`matplotlib`** and **`seaborn`**, including bar charts and faceted scatter plots to effectively communicate findings.
-* **Professional Programming Practices:** Employed virtual environments (Conda) for dependency management, implemented robust error handling (`try...except`), and followed best practices like the DRY (Don't Repeat Yourself) principle.
+* **Data Visualization:** Created clear and insightful visualizations using matplotlib and seaborn, including bar charts and faceted scatter plots to effectively communicate findings.
+* **Professional Programming Practices:** Employed virtual environments (Conda) for dependency management, implemented robust error handling (try...except), and followed best practices like the DRY (Don't Repeat Yourself) principle.
 
 ## Key Findings
 
 * The analysis revealed a potential link between submission volumes and the academic calendar, with notable peaks in activity during mid-summer and early autumn.
-* A strong inverse correlation was found between the nature of a research subfield and its collaboration patterns. Theoretical fields (e.g., `hep-th`) were characterized by small team sizes and long revision times, while observational/applied fields (e.g., `astro-ph.IM`) showed the opposite trend.
+* A strong inverse correlation was found between the nature of a research subfield and its collaboration patterns. Theoretical fields (e.g., hep-th) were characterized by small team sizes and long revision times, while observational/applied fields (e.g., astro-ph.IM) showed the opposite trend.
 * For theoretical fields, the revision timeline appears to be independent of collaboration size, suggesting it is driven by other factors like the inherent complexity of the research.
 * **Scalability Note:** The scraper is currently semi-automated to handle CAPTCHAs via manual input. For a production environment, it could be upgraded to integrate with a third-party CAPTCHA-solving service.
