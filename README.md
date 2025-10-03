@@ -7,7 +7,7 @@ Built a robust web scraper with Selenium to collect metadata from 19,000+ astrop
 
 This project is an end-to-end data pipeline that scrapes, cleans, and analyzes research paper metadata from the arXiv.org e-print server. The goal was to collect a comprehensive dataset of all 2024 pre-prints in the field of Astrophysics (`astro-ph`) and its related disciplines to identify trends in research publication, collaboration, and revision cycles.
 
-The script successfully navigates the site's anti-scraping measures (including intermittent CAPTCHAs) and complex pagination to gather detailed data on over 19,000 papers. The collected data was then cleaned and analyzed using the pandas library, and the key findings were presented using `matplotlib` and `seaborn`.
+The script successfully navigates the site's anti-scraping measures (including intermittent CAPTCHAs) and complex pagination to gather detailed data on over 19,000 papers. The collected data was then cleaned and analyzed using the pandas library, and the key findings were presented using matplotlib and seaborn.
 
 ## Key Skills Demonstrated
 
